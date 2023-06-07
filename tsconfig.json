@@ -1,16 +1,13 @@
 {
+  "extends": "../../tsconfig.json",
+  "include": ["src/**/*.ts", "src/**/*.js", "types/**/*", "../../types/**/*"],
+  "exclude": ["node_modules"],
   "compilerOptions": {
-    "skipLibCheck": true,
-    "target": "es5",
-    "module": "es6",
-    "allowJs": true,
-    "strict": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "importHelpers": true,
-    "allowSyntheticDefaultImports": true,
-    "sourceMap": true,
     "baseUrl": ".",
-    "noEmit": true,
+    "paths": {
+      "@/*": ["src/*"],
+      "@t/*": ["types/*"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable"]
   }
 }
