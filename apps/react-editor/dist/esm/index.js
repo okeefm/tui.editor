@@ -1,6 +1,6 @@
 /**
  * TOAST UI Editor : React Wrapper
- * @version 3.2.3 | Wed Jun 07 2023
+ * @version 3.2.3 | Mon Apr 06 2026
  * @author NHN Cloud FE Development Lab <dl_javascript@nhn.com>
  * @license MIT
  */
